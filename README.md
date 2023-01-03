@@ -115,7 +115,7 @@ Profile is displayed on the index page, and also experience and skills are displ
 The profile is configured in `_data/profile.yml`.
 
 ```
-image: assets/img/smile.png
+image: assets/img/smile.jpg
 username: Christoph Jabs
 description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
 webpage: https://chrjabs.github.io
