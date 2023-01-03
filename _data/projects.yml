@@ -1,42 +1,67 @@
-- project :
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
-    image:
-      path: "portfolio.png" # path: assets/project/
-      alt: "A screenshot of the portfolio page"
-    date: 05/2022 &ndash; Developing
-    title: Grape-Theme
-    summary: Academic portfolio jekyll theme.
-    description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
-    contents:
-        - title: 1. Portfolio Page
-          image:
-            path: portfolio.png
-            alt: "A screenshot of the portfolio page"
-          description: <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Optional Blog Functionality
-          image:
-            path: home.png
-            alt: "A screenshot of the blog page"
-          description: <li>Responsive Layout</li>
-            <li>Tags</li> 
-            <li>Pagination</li>
-        - title: 3. Tags Page
-          image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
-          description: <li>Responsive Layout</li> 
-            <li>Tags</li> 
+# - project :
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+#     url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+#     image:
+#       path: "portfolio.png" # path: assets/project/
+#       alt: "A screenshot of the portfolio page"
+#     date: 05/2022 &ndash; Developing
+#     title: Grape-Theme
+#     summary: Academic portfolio jekyll theme.
+#     description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
+#     contents:
+        # - title: 1. Portfolio Page
+        #   image:
+        #     path: portfolio.png
+        #     alt: "A screenshot of the portfolio page"
+        #   description: <li>Concise portfolio page</li>
+        #     <li>Recent publications</li>
+        #     <li>Projects</li>
+        # - title: 2. Optional Blog Functionality
+        #   image:
+        #     path: home.png
+        #     alt: "A screenshot of the blog page"
+        #   description: <li>Responsive Layout</li>
+        #     <li>Tags</li> 
+        #     <li>Pagination</li>
+        # - title: 3. Tags Page
+        #   image:
+        #     path: tags.png
+        #     alt: "A screenshot of the tags page"
+        #   description: <li>Responsive Layout</li> 
+        #     <li>Tags</li> 
 
 - project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2019 &ndash; Developing
-    title: Dummy project
-    summary: This is a Dummy
-    description:  
+    print: True 
+    modal: True
+    url: assets/pdf/Gaussian_Processes_Changepoint_Detection_in_Finance.pdf
+    image:
+      path: "cpd.png"
+      alt: "A screenshot of the changepoint detection predictive distribution"
+    date: 05/2022
+    title: Financial Change Point Detection
+    summary: Utilize Gaussian Processes to identify changepoints in financial time series.
+    description: Momentum strategies, commonly used by portfolio managers, struggled to adapt to changing financial situations, such as during the COVID-19 market crash. Using Bayesian changepoint detection with Gaussian Processes can improve classical momentum strategies by allowing for the identification of new trends and the discarding of old information. This technique was applied to a multilateral currency dataset from 1990-2022, and different kernel selections and optimization procedures were explored to find the best fit for nonstationary financial time series. The performance of the different kernels was analyzed and compared.
+
+- project:
+    print: True
+    modal: True
+    url: assets/pdf/Multiple_Testing.pdf
+    image:
+      path: "multiple_testing.png"
+      alt: "A screenshot of the multiple testing paper"
+    date: 05/2022
+    title: "A Brief Summary of \"Controlling the False Discovery Rate: a Practical and Powerful Approach to Multiple Testing\""
+    summary: Review an approach in multiple testing to control False Discovery Rate
+    description: Familywise Error Rate (FWER) is usually used to control the Type I error in multiple testing setting. However, it is over-conservative, resulting in a high false negatives (fail to reject when the null hypothesis is false). So, the author proposes False Discovery Rate, which controls the expected proportion of falsely rejected hypotheses, providing a more direct way to balance Type I error and power of the statistical test.
+
+
+# - project:
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+#     url:  # Full URL
+#     image: # path: assets/project/
+#     date: 06/2019 &ndash; Developing
+#     title: Dummy project
+#     summary: This is a Dummy
+#     description:  

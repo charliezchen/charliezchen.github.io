@@ -1,3 +1,4 @@
+{% if site.publications %}
 <section id="recentpubs">
   <div class="recentpubs-wrap">
     <p class="title">{{ site.theme_settings.recentpubs_title }}</p>
@@ -5,3 +6,4 @@
     {% bibliography --template recentpubstemplate --max 3 %}
   </div>
 </section>
+{% endif %}

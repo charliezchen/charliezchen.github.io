@@ -1,0 +1,27 @@
+- course:
+    title: Bayesian Machine Learning
+    instructor: Tim Rudner
+    date: Fall 2022
+    # description:
+- course:
+    title: Mathematical Statistics
+    instructor: Jonathan Niles-Weed
+    date: Fall 2022
+- course:
+    title: "Honors I: Fourier Analysis"
+    instructor: Jalal Shatah
+    date: Spring 2022
+- course:
+    title: Foundations of Machine Learning
+    instructor: Mehryar Mohri
+    date: Spring 2022
+- course:
+    title: Convex Optimization
+    instructor: Michael Overton
+    date: Spring 2022
+- course:
+    title: Honors Analysis II
+    instructor: Sinan Gunturk
+    date: Spring 2022
+
+
