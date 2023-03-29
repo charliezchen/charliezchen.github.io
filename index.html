@@ -27,7 +27,7 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Portfolio | Charlie Chen’s Personal Website</title>
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Portfolio" />
 <meta name="author" content="Charlie Chen" />
 <meta property="og:locale" content="en_US" />
@@ -83,7 +83,7 @@
       </div>
       <div class="text-wrap col-12 col-md-8">
         <h2 class="username">Charlie Chen</h2>
-        <div class="description"><p>I am a NYU Undergraduate, majoring in Honors Mathematics and Computer Science. I am passionate with Bayesian machine learning, control theory, and software engineering. I am also a breakdancer, skiier, and jogger.</p>
+        <div class="description"><p>I am a NYU Undergraduate, majoring in Honors Mathematics and Computer Science. I am passionate with theoretical machine learning, optimization, and robotics.</p>
 </div>
 
         <ul id="icons">
@@ -179,10 +179,6 @@
     
     <li class="award">Joseph A. Rice Research Scholar</li>
     
-    <li class="award">Top 2%, Tencent Weixin Big Data Competition, 2022</li>
-    
-    <li class="award">Bronze Medal for Kaggle Feedback Prize</li>
-    
   </ul>
 
     </article>
@@ -191,7 +187,7 @@
   <p class="title">RESEARCH INTERESTS</p>
   <ul class="interests-list">
     
-    <li class="interest">Bayesian machine learning</li>
+    <li class="interest">Theoretical machine learning</li>
     
     <li class="interest">Optimization</li>
     
@@ -200,29 +196,6 @@
   </ul>
 
       
-  <p class="title">SKILLS</p>
-  <ul class="skill-list">
-    
-    <li class="skill">
-      <p class="name">Pytorch</p>
-      <div class="progress">
-        <div class="progress-bar" style="width: 90%">
-          <div class="progress-value">90%</div>
-        </div>
-      </div>
-    </li>
-    
-    <li class="skill">
-      <p class="name">Keras</p>
-      <div class="progress">
-        <div class="progress-bar" style="width: 70%">
-          <div class="progress-value">70%</div>
-        </div>
-      </div>
-    </li>
-    
-  </ul>
-
     </article>
   </section>
 
@@ -237,23 +210,23 @@
         <div class="card">
           
           <div class="img-wrap">
-            <img src="/assets/project/cpd.png" alt="A screenshot of the changepoint detection predictive distribution">
+            <img src="/assets/project/uncertainty.png" alt="A screenshot of the uncertainty approximation paper">
           </div>
           
           <div class="text-wrap ">
             <div class="title-wrap">
-              <p class="date">05/2022</p>
-              <div class="title">Financial Change Point Detection</div>
+              <p class="date">12/2022</p>
+              <div class="title">Uncertainty Approximation in Recommendation System</div>
             </div>
             <div class="meta">
               
             </div>
-            <div class="description">Momentum strategies, commonly used by portfolio managers, struggled to adapt to changing financial situations, such as during the COVID-19 market crash. Using Bayesian changepoint detection with Gaussian Processes can improve classical momentum strategies by allowing for the identification of new trends and the discarding of old information. This technique was applied to a multilateral currency dataset from 1990-2022, and different kernel selections and optimization procedures were explored to find the best fit for nonstationary financial time series. The performance of the different kernels was analyzed and compared.</div>
+            <div class="description">In this study, we investigate the effect of Bayesian Machine Learning on the recommendation task. Our approach is inspired by the work of [1], in which the authors propose the use of dropout to efficiently compute approximations for both the mean and variance of the predictive distribution. We extend the results from [1] and show that they are valid in the context of recommendation tasks, up to some approximations. To further explore the utility of our approach, we conduct an extensive empirical experiment on a small, dense dataset. In this experiment, we vary the dropout ratio and number of forward passes, and observe the resulting relationship between the predictive variance, dropout ratio, and number of forward passes. Our results provide valuable insights into the effectiveness of using Bayesian Machine Learning and dropout for recommendation tasks.</div>
           </div>
           <div class="icons">
             
             
-            <a href="assets/pdf/Gaussian_Processes_Changepoint_Detection_in_Finance.pdf"><i class="far fa-eye"></i></a>
+            <a href="assets/pdf/Uncertainty_Approximation_in_Recommendation_System.pdf"><i class="far fa-eye"></i></a>
             
             
             <a title="1" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
@@ -270,7 +243,62 @@
       <p>&times;</p>
     </div>
     <div class="header">
-      <p class="date">05/2022</p>
+      <p class="date">12/2022</p>
+      <p class="title">Uncertainty Approximation in Recommendation System</p>
+      <p class="summary">Applying Bayesian inference for the recommendation task</p>
+    </div>
+    <div class="content">
+      
+        <img src="/assets/project/uncertainty.png" alt="A screenshot of the uncertainty approximation paper">
+      
+      <div class="description">In this study, we investigate the effect of Bayesian Machine Learning on the recommendation task. Our approach is inspired by the work of [1], in which the authors propose the use of dropout to efficiently compute approximations for both the mean and variance of the predictive distribution. We extend the results from [1] and show that they are valid in the context of recommendation tasks, up to some approximations. To further explore the utility of our approach, we conduct an extensive empirical experiment on a small, dense dataset. In this experiment, we vary the dropout ratio and number of forward passes, and observe the resulting relationship between the predictive variance, dropout ratio, and number of forward passes. Our results provide valuable insights into the effectiveness of using Bayesian Machine Learning and dropout for recommendation tasks.</div>
+      
+    </div>
+  </div>
+</div>
+      
+      <!-- Modal Box -->
+      
+      
+      
+      <div class="card-wrapper">
+        <div class="card">
+          
+          <div class="img-wrap">
+            <img src="/assets/project/cpd.png" alt="A screenshot of the changepoint detection predictive distribution">
+          </div>
+          
+          <div class="text-wrap ">
+            <div class="title-wrap">
+              <p class="date">12/2022</p>
+              <div class="title">Financial Change Point Detection</div>
+            </div>
+            <div class="meta">
+              
+            </div>
+            <div class="description">Momentum strategies, commonly used by portfolio managers, struggled to adapt to changing financial situations, such as during the COVID-19 market crash. Using Bayesian changepoint detection with Gaussian Processes can improve classical momentum strategies by allowing for the identification of new trends and the discarding of old information. This technique was applied to a multilateral currency dataset from 1990-2022, and different kernel selections and optimization procedures were explored to find the best fit for nonstationary financial time series. The performance of the different kernels was analyzed and compared.</div>
+          </div>
+          <div class="icons">
+            
+            
+            <a href="assets/pdf/Gaussian_Processes_Changepoint_Detection_in_Finance.pdf"><i class="far fa-eye"></i></a>
+            
+            
+            <a title="2" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Modal Box -->
+      
+      <div id="2" class="modal">
+  <div class="modal-background" onClick="close_modal()"></div>
+  <div class="modal-content">
+    <div class="close-modal" onClick="close_modal()">
+      <p>&times;</p>
+    </div>
+    <div class="header">
+      <p class="date">12/2022</p>
       <p class="title">Financial Change Point Detection</p>
       <p class="summary">Utilize Gaussian Processes to identify changepoints in financial time series.</p>
     </div>
@@ -297,7 +325,7 @@
           
           <div class="text-wrap ">
             <div class="title-wrap">
-              <p class="date">05/2022</p>
+              <p class="date">12/2022</p>
               <div class="title">A Brief Summary of "Controlling the False Discovery Rate: a Practical and Powerful Approach to Multiple Testing"</div>
             </div>
             <div class="meta">
@@ -311,21 +339,21 @@
             <a href="assets/pdf/Multiple_Testing.pdf"><i class="far fa-eye"></i></a>
             
             
-            <a title="2" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
+            <a title="3" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
             
           </div>
         </div>
       </div>
       <!-- Modal Box -->
       
-      <div id="2" class="modal">
+      <div id="3" class="modal">
   <div class="modal-background" onClick="close_modal()"></div>
   <div class="modal-content">
     <div class="close-modal" onClick="close_modal()">
       <p>&times;</p>
     </div>
     <div class="header">
-      <p class="date">05/2022</p>
+      <p class="date">12/2022</p>
       <p class="title">A Brief Summary of "Controlling the False Discovery Rate: a Practical and Powerful Approach to Multiple Testing"</p>
       <p class="summary">Review an approach in multiple testing to control False Discovery Rate</p>
     </div>
@@ -334,6 +362,61 @@
         <img src="/assets/project/multiple_testing.png" alt="A screenshot of the multiple testing paper">
       
       <div class="description">Familywise Error Rate (FWER) is usually used to control the Type I error in multiple testing setting. However, it is over-conservative, resulting in a high false negatives (fail to reject when the null hypothesis is false). So, the author proposes False Discovery Rate, which controls the expected proportion of falsely rejected hypotheses, providing a more direct way to balance Type I error and power of the statistical test.</div>
+      
+    </div>
+  </div>
+</div>
+      
+      <!-- Modal Box -->
+      
+      
+      
+      <div class="card-wrapper">
+        <div class="card">
+          
+          <div class="img-wrap">
+            <img src="/assets/project/adversarial.png" alt="A screenshot of the adversarial logit separation paper">
+          </div>
+          
+          <div class="text-wrap ">
+            <div class="title-wrap">
+              <p class="date">05/2022</p>
+              <div class="title">Adversarial Logit Separation</div>
+            </div>
+            <div class="meta">
+              
+            </div>
+            <div class="description">In this paper, we propose a sequential iterative method to optimize the cosine distance of output logits to maximize model diversity with a cosine annealing schedule to stabalize convergence. We call this strategy logit separation. This ensemble joint training technique needs to be added to a base method that acts on individual models.</div>
+          </div>
+          <div class="icons">
+            
+            
+            <a href="assets/pdf/FML_final_project.pdf"><i class="far fa-eye"></i></a>
+            
+            
+            <a title="4" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Modal Box -->
+      
+      <div id="4" class="modal">
+  <div class="modal-background" onClick="close_modal()"></div>
+  <div class="modal-content">
+    <div class="close-modal" onClick="close_modal()">
+      <p>&times;</p>
+    </div>
+    <div class="header">
+      <p class="date">05/2022</p>
+      <p class="title">Adversarial Logit Separation</p>
+      <p class="summary">A training method to increase adversarial robustness</p>
+    </div>
+    <div class="content">
+      
+        <img src="/assets/project/adversarial.png" alt="A screenshot of the adversarial logit separation paper">
+      
+      <div class="description">In this paper, we propose a sequential iterative method to optimize the cosine distance of output logits to maximize model diversity with a cosine annealing schedule to stabalize convergence. We call this strategy logit separation. This ensemble joint training technique needs to be added to a base method that acts on individual models.</div>
       
     </div>
   </div>
