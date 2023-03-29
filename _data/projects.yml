@@ -31,6 +31,21 @@
         #   description: <li>Responsive Layout</li> 
         #     <li>Tags</li> 
 
+# Uncertainty_Approximation_in_Recommendation_System.pdf
+
+- project:
+    print: True
+    modal: True
+    url: assets/pdf/Uncertainty_Approximation_in_Recommendation_System.pdf
+    image:
+      path: "uncertainty.png"
+      alt: "A screenshot of the uncertainty approximation paper"
+    date: 12/2022
+    title: "Uncertainty Approximation in Recommendation System"
+    summary: Applying Bayesian inference for the recommendation task
+    description: In this study, we investigate the effect of Bayesian Machine Learning on the recommendation task. Our approach is inspired by the work of [1], in which the authors propose the use of dropout to efficiently compute approximations for both the mean and variance of the predictive distribution. We extend the results from [1] and show that they are valid in the context of recommendation tasks, up to some approximations. To further explore the utility of our approach, we conduct an extensive empirical experiment on a small, dense dataset. In this experiment, we vary the dropout ratio and number of forward passes, and observe the resulting relationship between the predictive variance, dropout ratio, and number of forward passes. Our results provide valuable insights into the effectiveness of using Bayesian Machine Learning and dropout for recommendation tasks.
+
+
 - project:
     print: True 
     modal: True
@@ -38,7 +53,7 @@
     image:
       path: "cpd.png"
       alt: "A screenshot of the changepoint detection predictive distribution"
-    date: 05/2022
+    date: 12/2022
     title: Financial Change Point Detection
     summary: Utilize Gaussian Processes to identify changepoints in financial time series.
     description: Momentum strategies, commonly used by portfolio managers, struggled to adapt to changing financial situations, such as during the COVID-19 market crash. Using Bayesian changepoint detection with Gaussian Processes can improve classical momentum strategies by allowing for the identification of new trends and the discarding of old information. This technique was applied to a multilateral currency dataset from 1990-2022, and different kernel selections and optimization procedures were explored to find the best fit for nonstationary financial time series. The performance of the different kernels was analyzed and compared.
@@ -50,10 +65,24 @@
     image:
       path: "multiple_testing.png"
       alt: "A screenshot of the multiple testing paper"
-    date: 05/2022
+    date: 12/2022
     title: "A Brief Summary of \"Controlling the False Discovery Rate: a Practical and Powerful Approach to Multiple Testing\""
     summary: Review an approach in multiple testing to control False Discovery Rate
     description: Familywise Error Rate (FWER) is usually used to control the Type I error in multiple testing setting. However, it is over-conservative, resulting in a high false negatives (fail to reject when the null hypothesis is false). So, the author proposes False Discovery Rate, which controls the expected proportion of falsely rejected hypotheses, providing a more direct way to balance Type I error and power of the statistical test.
+
+- project:
+    print: True
+    modal: True
+    url: assets/pdf/FML_final_project.pdf
+    image:
+      path: "adversarial.png"
+      alt: "A screenshot of the adversarial logit separation paper"
+    date: 05/2022
+    title: "Adversarial Logit Separation"
+    summary: A training method to increase adversarial robustness
+    description:  In this paper, we propose a sequential iterative method to optimize the cosine distance of output logits to maximize model diversity with a cosine annealing schedule to stabalize convergence. We call this strategy logit separation. This ensemble joint training technique needs to be added to a base method that acts on individual models.
+
+
 
 
 # - project:

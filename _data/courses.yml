@@ -1,10 +1,15 @@
 - course:
-    title: Bayesian Machine Learning
+    title: Ordinary Differential Equation (Graduate)
+    instructor: Fengbo Hang
+    date: Spring 2023
+    # description:
+- course:
+    title: Bayesian Machine Learning (Graduate)
     instructor: Tim Rudner
     date: Fall 2022
     # description:
 - course:
-    title: Mathematical Statistics
+    title: Mathematical Statistics (Graduate)
     instructor: Jonathan Niles-Weed
     date: Fall 2022
 - course:
@@ -12,11 +17,11 @@
     instructor: Jalal Shatah
     date: Spring 2022
 - course:
-    title: Foundations of Machine Learning
+    title: Foundations of Machine Learning (Graduate)
     instructor: Mehryar Mohri
     date: Spring 2022
 - course:
-    title: Convex Optimization
+    title: Convex Optimization (Graduate)
     instructor: Michael Overton
     date: Spring 2022
 - course:

@@ -1,6 +1,6 @@
 image: assets/img/smile.jpg
 username: Charlie Chen
-description: I am a NYU Undergraduate, majoring in Honors Mathematics and Computer Science. I am passionate with Bayesian machine learning, control theory, and software engineering. I am also a breakdancer, skiier, and jogger.
+description: I am a NYU Undergraduate, majoring in Honors Mathematics and Computer Science. I am passionate with theoretical machine learning, optimization, and robotics.
 webpage: https://charllechen.github.io
 experience: # Remove for hiding the experience section
   - start: 2023-01-23
@@ -16,14 +16,14 @@ experience: # Remove for hiding the experience section
     end: 2021-05-26
     experience : Tencent, Machine Learning Engineer Intern
 interests: # Remove for hiding the interests section
-  - Bayesian machine learning
+  - Theoretical machine learning
   - Optimization
   - Robotics
-skills: # Remove for hiding the skills section
-  - skill: Pytorch
-    value: 90  # Percent value
-  - skill: Keras
-    value: 70 
+# skills: # Remove for hiding the skills section
+#   - skill: Pytorch
+#     value: 90  # Percent value
+#   - skill: Keras
+#     value: 70 
 social:
   email:  charlie.chen@nyu.edu # Full email address, e.g. "sample@google.com"
   orcid: 
@@ -44,5 +44,5 @@ social:
   instagram:
 awards: # Remove for hiding the awards section
   - Joseph A. Rice Research Scholar
-  - Top 2%, Tencent Weixin Big Data Competition, 2022
-  - Bronze Medal for Kaggle Feedback Prize
+  # - Top 2%, Tencent Weixin Big Data Competition, 2022
+  # - Bronze Medal for Kaggle Feedback Prize
