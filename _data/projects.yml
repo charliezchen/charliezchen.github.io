@@ -32,6 +32,23 @@
         #     <li>Tags</li> 
 
 # Uncertainty_Approximation_in_Recommendation_System.pdf
+- project:
+    print: True
+    modal: True
+    url: /assets/pdf/Non_parametric_MLE.pdf
+    date: 08/2023
+    title: "Emprical results on Non-parametric Maximum Likelihood Estimation (NPMLE)"
+    summary: Experiment results on fitting an one mixture and two mixture Gaussian distribution
+    description: We implemented NPMLE by frank-wolfe algorithm to estimate the distribution of one-dimensional one mixture and two mixtures Gaussian distributions and evaluate the log likelihood, the number of support, and the 1-Wasserstein distance. We investigated the self-regularizing effect of NPMLE by fitting the 1-Wasserstein metric with the number of samples. The one mixture exhibits a convergence rate of $O(n^{-0.6})$ whereas the two mixture case exhibits a convergence rate of $O(n^{-0.1})$, the reasons of which is still actively investigated.
+
+- project:
+    print: True
+    modal: True
+    url: /assets/pdf/SA_PEDS.pdf
+    date: 07/2023
+    title: "On the global minimum convergence of non-convex deterministic functions via stochastic approximation"
+    summary: Boosting convergence rate to global minimum
+    description: Guarantee to converging to global minimum is hard to obtain, except for convex cases. Recently, Caravelli et al.[2] proposed an optimization algorithm that converges to the global minimum, but the reason of convergence is not clear. In this paper, we argue that the algorithm can be approximated by optimizing a distribution on the objective function. We further propose a new algorithm named SA-PEDS and show that it performs better than the original algorithm on the Ackley function.
 
 - project:
     print: True
