@@ -1,6 +1,6 @@
-image: assets/img/profile.jpg
+image: assets/img/profile.jpeg
 username: Charlie Chen
-description: I am a NYU Undergraduate, majoring in Honors Mathematics and Computer Science. I am passionate with theoretical machine learning, optimization, and high dimensional statistics. Check my latest CV [here](https://github.com/charliezchen/academic-CV/releases/download/latest/main.pdf).
+description: I am Bachelor-Master student at NYU. My undergraduate is in Honors Math and Computer Science and my master degree is mathematics. I am interested in solving real-world problems with analytical and computational tools.
 webpage: https://charllechen.github.io
 experience: # Remove for hiding the experience section
   - start: 2023-01-23
@@ -16,8 +16,9 @@ experience: # Remove for hiding the experience section
     end: 2021-05-26
     experience : Tencent, Machine Learning Engineer Intern
 interests: # Remove for hiding the interests section
-  - Theoretical machine learning
+  - Statistics
   - Optimization
+  - Machine learning
   - Robotics
 # skills: # Remove for hiding the skills section
 #   - skill: Pytorch

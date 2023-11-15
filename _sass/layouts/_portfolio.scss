@@ -62,7 +62,7 @@
   #career {
     @extend %page-padding;
     margin-bottom: 55px;
-    margin-top: 55px;
+    // margin-top: 55px;
     .title {
       margin-top: 15px;
       color: $theme-dark;
@@ -210,5 +210,8 @@
         vertical-align: text-top;
       }
     }
+  }
+  #projects {
+    margin-top: 55px;
   }
 }
