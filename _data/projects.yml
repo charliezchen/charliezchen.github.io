@@ -44,7 +44,7 @@
 - project:
     print: True
     modal: True
-    url: /assets/pdf/SA_PEDS.pdf
+    url: /assets/pdf/Sto_PEDS.pdf
     date: 07/2023
     title: "On the global minimum convergence of non-convex deterministic functions via stochastic approximation"
     summary: Boosting convergence rate to global minimum
