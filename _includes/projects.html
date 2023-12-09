@@ -28,12 +28,16 @@
             <div class="description">{{ project.description }}</div>
           </div>
           <div class="icons">
+            {% if project.slide %}
+            {% assign slide = project.slide %}
+            <a href="{{ slide }}"><i class="far fa-file-powerpoint"></i></a>
+            {% endif %}
             {% if project.url %}
             {% assign url = project.url %}
-            <a href="{{ url }}"><i class="far fa-eye"></i></a>
+            <a href="{{ url }}"><i class="fas fa-file-pdf"></i></a>
             {% endif %}
             {% if project.modal %}
-            <a title="{{ id }}" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
+            <a title="{{ id }}" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-expand"></i></a>
             {% endif %}
           </div>
         </div>

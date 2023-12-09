@@ -44,6 +44,7 @@
 - project:
     print: True
     modal: True
+    slide: /assets/pdf/Sto_PEDS_slides.pdf
     url: /assets/pdf/Sto_PEDS.pdf
     date: 07/2023
     title: "On the global minimum convergence of non-convex deterministic functions via stochastic approximation"
@@ -66,6 +67,7 @@
 - project:
     print: True 
     modal: True
+    slide: /assets/pdf/CPD_Slides.pdf
     url: assets/pdf/Gaussian_Processes_Changepoint_Detection_in_Finance.pdf
     image:
       path: "cpd.png"
@@ -90,6 +92,7 @@
 - project:
     print: True
     modal: True
+    slide: assets/pdf/Adversarial Logits Separation slides.pdf
     url: assets/pdf/FML_final_project.pdf
     image:
       path: "adversarial.png"
