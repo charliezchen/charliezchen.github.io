@@ -19,4 +19,4 @@ social: true # includes social icons at the bottom of the page
 latest_posts: false
 ---
 
-I am a first-year Computer Science PhD at NYU Courant, working with Prof. [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). My research interest lies in efficiently training large neural networks. Prior to this, I finished my Bachelor and Master Degree in Math and Compute Science at NYU, when I worked with [Yanjun Han](https://yanjunhan2021.github.io/) and [Stefano Martiniani](https://martinianilab.org/). In my free time, I enjoy [running, hiking, and exploring the nature](misc).
+I am a Computer Science PhD at NYU Courant, working with Prof. [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). My research interest lies in efficiently training large neural networks. Prior to this, I finished my Bachelor and Master Degree in Math and Compute Science at NYU, when I worked with [Yanjun Han](https://yanjunhan2021.github.io/) and [Stefano Martiniani](https://martinianilab.org/).
