@@ -96,7 +96,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: # your Google Scholar ID
+scholar_userid: 3OJQLeQAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -229,6 +229,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - assets/jupyter/
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -259,7 +260,7 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  # - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
