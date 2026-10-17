@@ -19,4 +19,6 @@ social: true # includes social icons at the bottom of the page
 latest_posts: false
 ---
 
-I am a Computer Science PhD at NYU Courant, working with Prof. [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). My research interests include optimization, scaling laws, and structured matrices for efficiently training large neural networks. Prior to this, I finished my Bachelor and Master Degree in Math and Computer Science at NYU, where I worked with [Yanjun Han](https://yanjunhan2021.github.io/) and [Stefano Martiniani](https://martinianilab.org/).
+I am a Computer Science PhD student at NYU Courant, advised by Prof. [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). My research broadly focuses on building more reliable and aligned intelligent systems, with specific interests in scaling laws, novel architectures/optimizers, and structured matrices.
+
+Previously, I interned at [Q Labs](https://qlabs.sh/), working on improving scaling laws through architecture interventions, and at Amazon SCOT, working on causal inference for time series. Prior to my PhD, I completed a BA/MS accelerated program at NYU, earning my Bachelor's in Honors Mathematics and Computer Science and a Master's in Mathematics.
